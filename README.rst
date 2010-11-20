@@ -4,7 +4,7 @@ miniServer
 
 :Author: Gary Bishop
 :Author: Peter Parente
-:Description: A very simple tornado-based server for various services.
+:Description: A very simple tornado-based server for various services. I think of it as modern CGI for nginx.
 
 Status
 ======
