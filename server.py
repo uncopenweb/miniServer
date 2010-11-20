@@ -1,5 +1,9 @@
 '''
-A Mongo-based server for use with dojox.data.JsonRestStore.
+A Tornado-based server for miscellaneous services.
+
+It picks up whatever handlers it finds in the handlers sub-folder.
+
+I think of it as modern CGI for nginx.
 
 :copyright: Gary Bishop 2010
 :license: BSD
