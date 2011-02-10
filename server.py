@@ -1,5 +1,7 @@
 '''
-A Mongo-based server for use with dojox.data.JsonRestStore.
+A tornado-based server for miscellaneous services.
+
+It runs whatever handlers it finds in the handlers sub folder.
 
 :copyright: Gary Bishop 2010
 :license: BSD
