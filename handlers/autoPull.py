@@ -56,4 +56,4 @@ class PullHandler(tornado.web.RequestHandler):
             else:
                 logging.info('pulled ' + url)
     
-UrlMap = [(r"/autoPull/(.*)$", PullHandler)]
+UrlMap = [(r"/autoPull/?(.*)$", PullHandler)]
